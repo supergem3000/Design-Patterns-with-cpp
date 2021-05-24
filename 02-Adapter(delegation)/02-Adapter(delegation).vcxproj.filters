@@ -15,30 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BookShelf.h">
+    <ClInclude Include="Banner.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Book.h">
+    <ClInclude Include="Print.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Iterator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Aggregate.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BookShelfIterator.h">
+    <ClInclude Include="PrintBanner.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BookShelf.cpp">
+    <ClCompile Include="Banner.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Book.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="BookShelfIterator.cpp">
+    <ClCompile Include="PrintBanner.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

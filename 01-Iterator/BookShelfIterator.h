@@ -9,6 +9,6 @@ private:
     int index;
 public:
     BookShelfIterator(BookShelf* bookShelf);
-    virtual bool hasNext();
-    virtual Book* next();
+    bool hasNext();
+    Book* next();
 };

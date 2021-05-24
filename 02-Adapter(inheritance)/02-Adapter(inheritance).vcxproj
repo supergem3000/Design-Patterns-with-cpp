@@ -18,26 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Aggregate.h" />
-    <ClInclude Include="Book.h" />
-    <ClInclude Include="BookShelf.h" />
-    <ClInclude Include="BookShelfIterator.h" />
-    <ClInclude Include="Iterator.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Book.cpp" />
-    <ClCompile Include="BookShelf.cpp" />
-    <ClCompile Include="BookShelfIterator.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3dadee66-1d79-4654-852e-760b9569b264}</ProjectGuid>
-    <RootNamespace>My01Iterator</RootNamespace>
+    <ProjectGuid>{9c4f3201-476a-4d7c-a8fb-3d4104b48b23}</ProjectGuid>
+    <RootNamespace>My02Adapterinheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -153,6 +138,18 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Banner.h" />
+    <ClInclude Include="Print.h" />
+    <ClInclude Include="PrintBanner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Banner.cpp" />
+    <ClCompile Include="PrintBanner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
