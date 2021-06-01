@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b0848b20-05eb-4338-8f28-1015f22de572}</ProjectGuid>
-    <RootNamespace>My02Adapterdelegation</RootNamespace>
+    <ProjectGuid>{8a3c4074-b44f-4a81-a582-b51885a0d2db}</ProjectGuid>
+    <RootNamespace>My03TemplateMethod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Banner.h" />
-    <ClInclude Include="Print.h" />
-    <ClInclude Include="PrintBanner.h" />
+    <ClInclude Include="AbstractDisplay.h" />
+    <ClInclude Include="CharDisplay.h" />
+    <ClInclude Include="StringDisplay.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Banner.cpp" />
+    <ClCompile Include="AbstractDisplay.cpp" />
+    <ClCompile Include="CharDisplay.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="PrintBanner.cpp" />
+    <ClCompile Include="StringDisplay.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

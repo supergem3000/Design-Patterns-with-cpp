@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Banner.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="PrintBanner.cpp" />
   </ItemGroup>
   <ItemGroup>

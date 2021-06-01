@@ -29,6 +29,7 @@
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="BookShelf.cpp" />
     <ClCompile Include="BookShelfIterator.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

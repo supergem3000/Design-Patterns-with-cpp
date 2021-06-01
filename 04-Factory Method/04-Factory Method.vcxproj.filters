@@ -15,28 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Banner.h">
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Print.h">
+    <ClInclude Include="Factory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="PrintBanner.h">
+    <ClInclude Include="IDCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDCardFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Banner.cpp">
+    <ClCompile Include="Factory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="PrintBanner.cpp">
+    <ClCompile Include="IDCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IDCardFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
   </ItemGroup>
 </Project>
