@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-Factory Method", "04-Fac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-Singleton", "05-Singleton\05-Singleton.vcxproj", "{7EF0637E-5231-44A5-B466-0F4EC6B96618}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06-Prototype", "06-Prototype\06-Prototype.vcxproj", "{85E2C176-ADBC-4AA8-A575-9C6183DD2221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -76,6 +78,14 @@ Global
 		{7EF0637E-5231-44A5-B466-0F4EC6B96618}.Release|x64.Build.0 = Release|x64
 		{7EF0637E-5231-44A5-B466-0F4EC6B96618}.Release|x86.ActiveCfg = Release|Win32
 		{7EF0637E-5231-44A5-B466-0F4EC6B96618}.Release|x86.Build.0 = Release|Win32
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Debug|x64.ActiveCfg = Debug|x64
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Debug|x64.Build.0 = Debug|x64
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Debug|x86.ActiveCfg = Debug|Win32
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Debug|x86.Build.0 = Debug|Win32
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Release|x64.ActiveCfg = Release|x64
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Release|x64.Build.0 = Release|x64
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Release|x86.ActiveCfg = Release|Win32
+		{85E2C176-ADBC-4AA8-A575-9C6183DD2221}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
