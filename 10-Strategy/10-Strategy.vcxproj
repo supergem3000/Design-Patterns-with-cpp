@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b346d8c4-d710-4af1-a1bb-bdd5fe56b1b2}</ProjectGuid>
-    <RootNamespace>My09Bridge</RootNamespace>
+    <ProjectGuid>{67a1ce69-28b1-41ab-b4f8-1ebb2f94bef8}</ProjectGuid>
+    <RootNamespace>My10Strategy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,19 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CountDisplay.h" />
-    <ClInclude Include="Display.h" />
-    <ClInclude Include="DisplayImpl.h" />
-    <ClInclude Include="StringDisplayImpl.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CountDisplay.cpp" />
-    <ClCompile Include="Display.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="StringDisplayImpl.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hand.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ProbStrategy.h" />
+    <ClInclude Include="Strategy.h" />
+    <ClInclude Include="WinningStrategy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ProbStrategy.cpp" />
+    <ClCompile Include="WinningStrategy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

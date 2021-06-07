@@ -15,34 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Display.h">
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hand.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CountDisplay.h">
+    <ClInclude Include="Strategy.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DisplayImpl.h">
+    <ClInclude Include="WinningStrategy.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="StringDisplayImpl.h">
+    <ClInclude Include="ProbStrategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Display.cpp">
+    <ClCompile Include="Hand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CountDisplay.cpp">
+    <ClCompile Include="WinningStrategy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StringDisplayImpl.cpp">
+    <ClCompile Include="ProbStrategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
   </ItemGroup>
 </Project>
