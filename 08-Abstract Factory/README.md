@@ -1,8 +1,8 @@
-# Abstract Factory 模式
+# Abstract Factory模式
 
 将关联零件组装成产品
 
-## Abstract Factory 模式中的角色
+## Abstract Factory模式中的角色
 
 - AbstractProduct 抽象产品
 
