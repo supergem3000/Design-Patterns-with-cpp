@@ -147,6 +147,10 @@
     <ClInclude Include="ListPage.h" />
     <ClInclude Include="ListTray.h" />
     <ClInclude Include="Page.h" />
+    <ClInclude Include="TableFactory.h" />
+    <ClInclude Include="TableLink.h" />
+    <ClInclude Include="TablePage.h" />
+    <ClInclude Include="TableTray.h" />
     <ClInclude Include="Tray.h" />
   </ItemGroup>
   <ItemGroup>
@@ -158,7 +162,14 @@
     <ClCompile Include="ListTray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Page.cpp" />
+    <ClCompile Include="TableFactory.cpp" />
+    <ClCompile Include="TableLink.cpp" />
+    <ClCompile Include="TablePage.cpp" />
+    <ClCompile Include="TableTray.cpp" />
     <ClCompile Include="Tray.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

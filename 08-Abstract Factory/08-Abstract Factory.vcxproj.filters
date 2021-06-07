@@ -42,6 +42,18 @@
     <ClInclude Include="ListPage.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TableFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableTray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TablePage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Item.cpp">
@@ -71,5 +83,20 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TableFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableTray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TablePage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
