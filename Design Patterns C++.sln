@@ -36,6 +36,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12-Decorator", "12-Decorato
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13-Visitor", "13-Visitor\13-Visitor.vcxproj", "{02EB9507-5582-4BDC-8690-818421A63E50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14-Chain of Responsibility", "14-Chain of Responsibility\14-Chain of Responsibility.vcxproj", "{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -156,6 +158,14 @@ Global
 		{02EB9507-5582-4BDC-8690-818421A63E50}.Release|x64.Build.0 = Release|x64
 		{02EB9507-5582-4BDC-8690-818421A63E50}.Release|x86.ActiveCfg = Release|Win32
 		{02EB9507-5582-4BDC-8690-818421A63E50}.Release|x86.Build.0 = Release|Win32
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Debug|x64.ActiveCfg = Debug|x64
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Debug|x64.Build.0 = Debug|x64
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Debug|x86.Build.0 = Debug|Win32
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Release|x64.ActiveCfg = Release|x64
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Release|x64.Build.0 = Release|x64
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Release|x86.ActiveCfg = Release|Win32
+		{EDAA5B44-FC6C-46E2-AEBA-8C49BAEF2CAD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
