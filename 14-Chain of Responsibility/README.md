@@ -10,4 +10,4 @@
 
 - ConcreteHandler 具体的处理者
 
-  处理请求的具体角色。程序中由`NoSupport`、`LimitSupport`、`OddSupport`和`SpecialSupport`来实现。
+  处理请求的具体角色。程序中由`NoSupport`类、`LimitSupport`类、`OddSupport`类和`SpecialSupport`类来实现。
