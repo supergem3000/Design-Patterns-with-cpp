@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-Adapter(inheritance)", "02-Adapter(inheritance)\02-Adapter(inheritance).vcxproj", "{9C4F3201-476A-4D7C-A8FB-3D4104B48B23}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-Adapter(Class)", "02-Adapter(Class)\02-Adapter(Class).vcxproj", "{9C4F3201-476A-4D7C-A8FB-3D4104B48B23}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-Adapter(delegation)", "02-Adapter(delegation)\02-Adapter(delegation).vcxproj", "{B0848B20-05EB-4338-8F28-1015F22DE572}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-Adapter(Object)", "02-Adapter(Object)\02-Adapter(Object).vcxproj", "{B0848B20-05EB-4338-8F28-1015F22DE572}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03-Template Method", "03-Template Method\03-Template Method.vcxproj", "{8A3C4074-B44F-4A81-A582-B51885A0D2DB}"
 EndProject
